@@ -17,7 +17,8 @@ public class Contacto {
     private String telefonoPrincipal;
     private String telefonoAlternativo;
     private String correoElectronico;
-    private String direccion;
+    private String direccion;   
+    private String cambio;
     
     
     public String getNombre() {
