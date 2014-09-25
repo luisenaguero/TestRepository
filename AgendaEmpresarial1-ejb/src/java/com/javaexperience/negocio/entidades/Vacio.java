@@ -5,6 +5,7 @@
  */
 package com.javaexperience.negocio.entidades;
 
+import javax.ejb.LocalBean;
 import javax.ejb.Stateless;
 
 /**
@@ -12,7 +13,8 @@ import javax.ejb.Stateless;
  * @author luis.aguero
  */
 @Stateless
-public class Vacio implements VacioLocal {
+@LocalBean
+public class Vacio {
 
     // Add business logic below. (Right-click in editor and choose
     // "Insert Code > Add Business Method")

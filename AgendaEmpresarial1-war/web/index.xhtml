@@ -32,7 +32,7 @@
                         rowsPerPageTemplate="10,50,100"
                         currentPageReportTemplate="Contactos Totales: {totalRecords} &nbsp; &nbsp; &nbsp;"
                         selection="#{agenda.contactoSeleccionado}" selectionMode="single"
-                        rowKey="#{contacto.nombre}" resizableColumns="true" draggableColumns="true"
+                        rowKey="#{contacto.id}" resizableColumns="true" draggableColumns="true"
                         emptyMessage="Todavía no tiene ningún Conacto">
                <p:column headerText="Nombre">
                    <p:outputLabel value="#{contacto.nombre}"/>
