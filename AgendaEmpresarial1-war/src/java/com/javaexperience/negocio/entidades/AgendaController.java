@@ -54,10 +54,6 @@ public class AgendaController implements Serializable {
         return listaContactos;
     }
 
-    public void setListaContactos(List<Contacto> listaContactos) {
-        this.listaContactos = listaContactos;
-    }
-
     public void prepararCrearContacto() {
         contacto = new Contacto();
     }
